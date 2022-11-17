@@ -1,0 +1,16 @@
+.landing{
+  padding: 15rem 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  border: 1px solid green;
+  background-image: linear-gradient(180deg, #FF6666 34%, #FF3D54 75%);
+  border-end-start-radius: 10rem;
+}
+
+.landing_btn_sec{
+  margin: auto;
+  display: flex; 
+  gap: 1rem;
+}

@@ -1,0 +1,48 @@
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.drop_menus{
+    display: flex;
+    align-items: center;
+}
+
+
+.btn_sect{
+    display: none;
+    align-items: center;
+    gap: 1rem;
+}
+@media screen and (min-width: 600px){
+    .btn_sect{
+        display: flex;
+    }
+}
+.btn_signup{
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+    border: none;
+    color: hsl(356, 100%, 66%);
+    background-color: #fff;
+}
+.btn_signup:hover, .btn_login:hover{
+    background-color: #fff;
+    color: hsl(356, 100%, 66%);
+    cursor: pointer;
+}
+.btn_signup:hover{
+    background-color: hsl(356, 100%, 66%);
+    color: #fff;
+}
+
+.btn_login{
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+}
+
