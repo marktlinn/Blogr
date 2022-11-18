@@ -4,6 +4,21 @@
     gap: 3rem;
 }
 
+#dropdownMenuButton{
+    background-color: transparent;
+    border: none;
+    font-size: 1.3rem;
+}
+
+.dropItem{
+  font-size: 1.2rem;
+}
+
+.dropItem>:hover{
+  font-weight: 700;
+  background-color: transparent;
+}
+
 .drop_menus{
     display: flex;
     align-items: center;
@@ -14,6 +29,7 @@
     display: none;
     align-items: center;
     gap: 1rem;
+    margin-left: auto;
 }
 @media screen and (min-width: 600px){
     .btn_sect{
@@ -24,16 +40,16 @@
     padding: 1rem 3rem;
     border-radius: 3rem;
     border: none;
-    color: hsl(356, 100%, 66%);
+    color: var(--CTA-text);
     background-color: #fff;
 }
 .btn_signup:hover, .btn_login:hover{
     background-color: #fff;
-    color: hsl(356, 100%, 66%);
+    color: var(--CTA-text);
     cursor: pointer;
 }
 .btn_signup:hover{
-    background-color: hsl(356, 100%, 66%);
+    background-color: var(--CTA-hover);
     color: #fff;
 }
 
@@ -46,3 +62,13 @@
     text-decoration: none;
 }
 
+.faBars{
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+@media screen and (min-width: 600px){
+    .faBars{
+        display: none;
+    }
+}

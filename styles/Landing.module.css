@@ -4,13 +4,56 @@
   flex-direction: column;
   gap: 2rem;
   align-items: center;
-  border: 1px solid green;
-  background-image: linear-gradient(180deg, #FF6666 34%, #FF3D54 75%);
+  background: URL("../public/bg-pattern-intro-mobile.svg") no-repeat center,linear-gradient(to right bottom, #f86a6a, #FF3D54 75%);
+  background-size: 250%;
   border-end-start-radius: 10rem;
 }
 
+
+/* text */
+
+.heading{
+  color: #fff;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.pText{
+  color: #fff;
+  font-size: 2rem;
+}
+
+/* buttons */
 .landing_btn_sec{
   margin: auto;
   display: flex; 
   gap: 1rem;
+}
+
+.btnSignup, .btnLearn{
+  padding: .7rem 1.8rem;
+  font-size: 1.3rem;
+  border-radius: 3rem;
+  border: none;
+  color: var(--CTA-text);
+}
+
+.btnSignup{
+  background-color: #fff; 
+}
+
+.btnSignup:hover{
+  color: #fff; 
+  background-color: var(--CTA-hover);
+}
+
+.btnLearn{
+  background-color: transparent; 
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.btnLearn:hover{
+  color: var(--CTA-text);
+  background-color: #fff; 
 }

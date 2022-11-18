@@ -1,10 +1,13 @@
 import type { AppProps } from 'next/app'
+import { useEffect } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import "../styles/globals.css"
 import { Overpass } from "@next/font/google"
+import { config } from '@fortawesome/fontawesome-svg-core'
+import '@fortawesome/fontawesome-svg-core/styles.css'
+config.autoAddCss = false
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import { useEffect } from 'react'
 const overpass = Overpass()
 
 export default function App({ Component, pageProps }: AppProps) {
@@ -13,10 +16,10 @@ export default function App({ Component, pageProps }: AppProps) {
   }, []);
 
   return (
-    <main className={overpass.className}>
+    <div className={overpass.className}>
       <Navbar />
       <Component {...pageProps} />
       <Footer />
-    </main>
+    </div>
   )
 }

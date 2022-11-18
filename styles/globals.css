@@ -41,17 +41,6 @@ nav{
   align-items: center;
   background: transparent;
   padding: 2rem 10% 1rem 10%;
-  position: fixed;
-}
-
-#dropdown-menu-button{
-    background-color: transparent;
-    border: none;
-}
-
-.btn{
-  padding: 1rem 3rem;
-  border-radius: 3rem;
-  border: none;
-  background-color: #fff; 
+  width: 100%;
+  position: absolute;
 }

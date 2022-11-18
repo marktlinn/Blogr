@@ -11,15 +11,17 @@ interface Props {
 function DropDown({title, itemTwo, itemThree}: Props) {
   return (
     <DropdownButton 
-      id="dropdown-menu-button" 
+      id={styles.dropdownMenuButton}
       title={title}
     >
-      <Dropdown.Item 
-        href="#">{itemTwo}
-      </Dropdown.Item>
-      <Dropdown.Item 
-        href="#">{itemThree}
-      </Dropdown.Item>
+      <div className={styles.dropItem}>
+        <Dropdown.Item 
+          href="#">{itemTwo}
+        </Dropdown.Item>
+        <Dropdown.Item 
+          href="#">{itemThree}
+        </Dropdown.Item>
+      </div>
     </DropdownButton>
   );
 }

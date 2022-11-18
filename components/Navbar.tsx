@@ -2,7 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 import DropDown from './DropDown'
 import styles from '../styles/Nav.module.css'
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faBars } from "@fortawesome/free-solid-svg-icons"
 const Navbar = () => {
   return (
     <nav>
@@ -31,6 +32,11 @@ const Navbar = () => {
       <div className={styles.btn_sect}>
         <button className={styles.btn_login}>Login</button>
         <button className={styles.btn_signup}>SignUp</button>
+      </div>
+      <div>
+        <FontAwesomeIcon 
+        className={styles.faBars}
+        icon={ faBars }/>
       </div>
     </nav>
   )
