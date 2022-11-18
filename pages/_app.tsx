@@ -6,8 +6,7 @@ import { Overpass } from "@next/font/google"
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+import { SSRProvider } from 'react-bootstrap'
 const overpass = Overpass()
 
 export default function App({ Component, pageProps }: AppProps) {
@@ -16,10 +15,10 @@ export default function App({ Component, pageProps }: AppProps) {
   }, []);
 
   return (
+    <SSRProvider>
     <div className={overpass.className}>
-      <Navbar />
       <Component {...pageProps} />
-      <Footer />
     </div>
+    </SSRProvider>
   )
 }
