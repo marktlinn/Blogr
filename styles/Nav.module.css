@@ -77,3 +77,14 @@
         display: none;
     }
 }
+
+.menuCard{
+    position: absolute;
+    background-color: #fff;
+    width: 80%;
+    right: 4rem;
+    top: 5rem;
+    border-radius: 1rem;
+    border: none;
+    padding: 4rem 0;
+}

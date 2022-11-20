@@ -1,10 +1,20 @@
-import React from 'react'
+import { useState } from 'react'
 import Image from 'next/image'
 import DropDown from './DropDown'
 import styles from '../styles/Nav.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBars } from "@fortawesome/free-solid-svg-icons"
+import { faBars, faX } from "@fortawesome/free-solid-svg-icons"
+import AccordionComp from './Accordion'
+
 const Navbar = () => {
+  const [menuActive, setMenuActive] = useState(false);
+
+  const handleClick = (e: any) =>{
+    e.preventDefault();
+    console.log('debug');
+    setMenuActive(prev=> !prev);
+  }
+
   return (
     <nav>
       <div className={styles.logo}>
@@ -33,10 +43,23 @@ const Navbar = () => {
         <button className={styles.btn_login}>Login</button>
         <button className={styles.btn_signup}>SignUp</button>
       </div>
-      <div>
+      <div
+        onClick={handleClick}
+        >
+        {menuActive === false ? (
         <FontAwesomeIcon 
         className={styles.faBars}
-        icon={ faBars }/>
+        icon={ faBars }/>) :
+        (
+          <FontAwesomeIcon 
+          className={styles.faBars}
+          icon={ faX }/>) 
+      }
+        {menuActive &&
+        <div className={styles.menuCard}>
+          <AccordionComp />
+        </div> 
+        }
       </div>
     </nav>
   )

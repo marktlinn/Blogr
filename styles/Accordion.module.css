@@ -1,0 +1,53 @@
+.lists{
+    display: flex;
+    flex-direction:column;
+    gap: .5rem;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(244, 238, 238);
+    padding: 1rem 10rem;
+    border-radius: 1rem;
+}
+
+.lists>:hover{
+    color: #000;
+    font-weight: 700;
+}
+
+.btn_sect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.btn_signup{
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+    border: none;
+    color: #fff;
+    background: linear-gradient(to right, var(--very-light-red) , var(--CTA-text) 65%);
+}
+.btn_signup:hover, .btn_login:hover{
+    background-color: #fff;
+    color: var(--CTA-text);
+    cursor: pointer;
+    font-weight: 800;
+
+}
+.btn_signup:hover{
+    color: #fff;
+}
+
+.btn_login{
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+    border: none;
+    background-color: transparent;
+    color: var(--CTA-text);
+    text-decoration: none;
+}
