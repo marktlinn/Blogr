@@ -25,10 +25,15 @@
   
 
 .drop_menus{
-    display: flex;
+    display: none;
     align-items: center;
 }
 
+@media screen and (min-width: 600px){
+    .drop_menus{
+        display: flex;
+    }
+}
 
 .btn_sect{
     display: none;
@@ -82,7 +87,7 @@
     position: absolute;
     background-color: #fff;
     width: 80%;
-    right: 4rem;
+    right: 3rem;
     top: 6rem;
     border-radius: 1rem;
     border: none;
