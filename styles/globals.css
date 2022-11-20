@@ -58,6 +58,12 @@ nav{
   /* justify-content: center; */
   flex-direction: column;
 }
+.accordion-collapse{
+  width: 80%;
+  background-color: rgb(244, 238, 238);
+  border-radius: 1rem;
+}
+
 .accordion-button:focus {
   background-color: transparent;
   outline: none;
@@ -82,4 +88,3 @@ nav{
   bottom: 3px;
   background-image: url(../public/icon-arrow-dark.svg);
 }
-

@@ -56,7 +56,7 @@ const AccordionComp = () => {
             </Accordion.Body>
           </Accordion.Item>
 
-            <hr/>
+            <hr className={styles.hrDiv}/>
 
             <div className={styles.btn_sect}>
                 <button className={styles.btn_login}>Login</button>
