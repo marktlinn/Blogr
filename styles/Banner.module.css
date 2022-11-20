@@ -4,9 +4,9 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background: url("../public/bg-pattern-circles.svg") no-repeat center top;
-    background-size: 120%;
-    background-color: var(--body-dark-blue);
+    background: url("../public/bg-pattern-circles.svg") no-repeat center -15rem;
+    background-size: 100%;
+    background-color: var(--body-desat-blue);
     color: #fff;
     border-top-right-radius: 14rem;
     border-bottom-left-radius: 14rem;
@@ -24,9 +24,11 @@
 }
 
 .title{
-    font-size: 3rem;
+    font-size: 4rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
 }
 
 .underText{
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }

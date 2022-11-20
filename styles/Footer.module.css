@@ -1,0 +1,39 @@
+.footer{
+    background: var(--body-dark-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    padding: 5rem;
+    border-top-right-radius: 10rem;
+}
+
+.subTitle, .title{
+    color: #fff;
+}
+.title{
+    padding-bottom: 3rem;
+    font-size:3rem;
+    font-weight: 700;
+}
+
+.subTitle{
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.linkList{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    padding-left: 0;
+    padding-bottom: 3rem;
+    gap: 1rem;
+    list-style: none;
+    color: var(--footer-text)
+}
+
+.linkList>:hover{
+    text-decoration: underline;
+    color: var(--footer-text)
+}

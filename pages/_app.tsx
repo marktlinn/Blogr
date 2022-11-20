@@ -8,16 +8,17 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
 import { SSRProvider } from 'react-bootstrap'
 const overpass = Overpass()
+import Footer from '../components/Footer'
+
 
 export default function App({ Component, pageProps }: AppProps) {
-  useEffect(() => {
-    require("bootstrap/dist/js/bootstrap.bundle.min.js");
-  }, []);
 
   return (
     <SSRProvider>
     <div className={overpass.className}>
       <Component {...pageProps} />
+      <Footer />
+
     </div>
     </SSRProvider>
   )
