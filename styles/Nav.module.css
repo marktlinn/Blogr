@@ -15,9 +15,14 @@
 }
 
 .dropItem>:hover{
-  font-weight: 700;
   background-color: transparent;
 }
+  
+.links:hover{
+    font-weight: 700;
+    color: #000;
+}
+  
 
 .drop_menus{
     display: flex;
