@@ -11,7 +11,6 @@ const Navbar = () => {
 
   const handleClick = (e: any) =>{
     e.preventDefault();
-    console.log('debug');
     setMenuActive(prev=> !prev);
   }
 

@@ -16,12 +16,16 @@ function DropDown({title, itemTwo, itemThree}: Props) {
       title={title}
     >
       <div className={styles.dropItem}>
-        <Dropdown.Item>
-          <Link className={styles.links} href="#">{itemTwo}</Link>
+      <Link href="#" passHref legacyBehavior>
+        <Dropdown.Item
+           className={styles.links} >{itemTwo}
         </Dropdown.Item>
-        <Dropdown.Item>
-        <Link className={styles.links} href="#">{itemThree}</Link>
+      </Link>
+      <Link href="#" passHref legacyBehavior>
+        <Dropdown.Item
+        className={styles.links} >{itemThree}
         </Dropdown.Item>
+      </Link>
       </div>
     </DropdownButton>
   );

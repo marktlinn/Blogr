@@ -7,7 +7,6 @@ const AccordionComp = () => {
     const stopDefault = (e: any) => {
         e.preventDefault();
         e.stopPropagation();
-        console.log('clicked item')
     }
 
     return (

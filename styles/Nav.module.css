@@ -77,6 +77,10 @@
     color: #fff;
 }
 
+.faBars:hover{
+    cursor: pointer;
+}
+
 @media screen and (min-width: 600px){
     .faBars{
         display: none;
@@ -92,4 +96,5 @@
     border-radius: 1rem;
     border: none;
     padding: 4rem 0;
+    z-index: 1;
 }

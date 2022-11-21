@@ -35,6 +35,7 @@ html,body{
     margin: 0;
     padding: 0;
     overflow-x: hidden; 
+    position: relative;
 }
 
 nav{
@@ -45,6 +46,7 @@ nav{
   padding: 2rem 10% 1rem 10%;
   width: 100%;
   position: absolute;
+  top:0;
 }
 
 .accordion-button {
