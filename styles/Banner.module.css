@@ -4,8 +4,8 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background: url("../public/bg-pattern-circles.svg") no-repeat center -15rem;
-    background-size: 100%;
+    background: url("../public/bg-pattern-circles.svg") no-repeat center -25rem;
+    background-size: 70rem;
     background-color: var(--body-desat-blue);
     color: #fff;
     border-top-right-radius: 14rem;
@@ -31,4 +31,22 @@
 
 .underText{
     font-size: 1.8rem;
+}
+@media screen and (min-width: 600px){
+    .container{
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 1rem 10% 1rem 2rem;
+        background: url("../public/bg-pattern-circles.svg") no-repeat -10rem -25rem;
+        background-size: 70rem;
+        background-color: var(--body-desat-blue);
+    }
+    .phones{
+        position: static;
+    }
+    .text{
+        position: static;
+        width: 50%;
+        text-align: left;
+    }
 }
