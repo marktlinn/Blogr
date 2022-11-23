@@ -26,6 +26,8 @@
 .linkList{
     display: flex;
     flex-direction: column;
+    color: var(--footer-text);
+    text-decoration: none;
     font-size: 1.5rem;
     padding-left: 0;
     padding-bottom: 3rem;
