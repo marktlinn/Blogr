@@ -26,14 +26,15 @@
 .linkList{
     display: flex;
     flex-direction: column;
-    color: var(--footer-text);
-    text-decoration: none;
     font-size: 1.5rem;
     padding-left: 0;
     padding-bottom: 3rem;
     gap: 1rem;
+}
+.linkList>{
+    text-decoration: none;
+    color: var(--footer-text);
     list-style: none;
-    color: var(--footer-text)
 }
 
 .linkList>:hover{
