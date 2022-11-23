@@ -29,9 +29,12 @@
     font-size: 1.5rem;
     padding-left: 0;
     padding-bottom: 3rem;
+    color: var(--footer-text);
+    text-decoration: none;
     gap: 1rem;
+    list-style: none;
 }
-.linkList>{
+.linkList>*{
     text-decoration: none;
     color: var(--footer-text);
     list-style: none;
