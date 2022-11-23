@@ -36,7 +36,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className={styles.profileTags}>
-        <p><small>Made by Mark Linn</small></p>
+        <p>Made by Mark Linn</p>
         <Link href="https://github.com/marksist300" ><FontAwesomeIcon size="2x" icon={faGithub}/></Link>
         <Link href="https://twitter.com/marksist_300"><FontAwesomeIcon size="2x" icon={faTwitter} /></Link>
         <Link href="mailto:marklinndev@gmail.com"><FontAwesomeIcon size="2x" icon={faEnvelope} /></Link>
