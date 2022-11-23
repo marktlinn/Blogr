@@ -48,13 +48,20 @@
 
 .profileTags{
     position: absolute;
-    bottom: 4px;
     display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    bottom: 4px;
     gap: 1rem;
     color: var(--footer-text)
 }
 .profileTags>*{
     color: var(--footer-text)
+}
+
+.nameTag{
+    position: relative;
+    bottom: -5px;
 }
 
 @media screen and (min-width: 650px){
