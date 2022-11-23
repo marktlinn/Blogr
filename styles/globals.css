@@ -52,50 +52,50 @@ nav{
 /* global Boostrap CSS rules: */
 
 .dropdown-menu{
-  border: none;
+  border: none !important;
 }
 
 .accordion-button {
-  font-size: 1.6rem;
-  margin: auto;
-  border: none;
-  display: flex;
-  gap:1rem;
+  font-size: 1.6rem !important;
+  margin: auto !important;
+  border: none !important;
+  display: flex !important;
+  gap:1rem !important;
 }
 .accordion-item {
-  border: none;
-  display: flex;
-  align-items: center;
+  border: none !important;
+  display: flex !important;
+  align-items: center !important;
   /* justify-content: center; */
-  flex-direction: column;
+  flex-direction: column !important;
 }
 .accordion-collapse{
-  width: 80%;
-  background-color: rgb(244, 238, 238);
-  border-radius: 1rem;
+  width: 80% !important;
+  background-color: rgb(244, 238, 238) !important;
+  border-radius: 1rem !important;
 }
 
 .accordion-button:focus {
-  background-color: transparent;
-  outline: none;
-  color: var(--body-copy);
-  box-shadow: none;
+  background-color: transparent !important;
+  outline: none !important;
+  color: var(--body-copy) !important;
+  box-shadow: none !important;
 }
 
 .accordion-button:active {
-  background-color: transparent;
-  outline: none;
-  border: none;
+  background-color: transparent !important;
+  outline: none !important;
+  border: none !important;
 }
 
 .accordion-button::after {
-    background-image: url(../public/icon-arrow-dark.svg);
-    padding: 0;
+    background-image: url(../public/icon-arrow-dark.svg) !important;
+    padding: 0 !important;
 }
 
 .accordion-button:not(.collapsed)::after {
-  transform: rotate(-180deg);
-  position: relative;
-  bottom: 3px;
-  background-image: url(../public/icon-arrow-dark.svg);
+  transform: rotate(-180deg) !important;
+  position: relative !important;
+  bottom: 3px !important;
+  background-image: url(../public/icon-arrow-dark.svg) !important;
 }

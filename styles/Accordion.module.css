@@ -1,17 +1,17 @@
 .lists{
-    display: flex;
-    flex-direction:column;
-    gap: .5rem;
-    font-size: 1.5rem;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    padding: 1rem 4rem;
+    display: flex !important;
+    flex-direction:column !important;
+    gap: .5rem !important;
+    font-size: 1.5rem !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: auto !important;
+    padding: 1rem 4rem !important;
 }
 
 .lists>:hover{
-    color: #000;
-    font-weight: 700;
+    color: #000 !important;
+    font-weight: 700 !important;
 }
 
 .btn_sect{
@@ -20,8 +20,8 @@
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    font-size: 1.4rem;
-    font-weight: 700;
+    font-size: 1.4rem !important;
+    font-weight: 700 !important;
     padding: 1rem;
 }
 
