@@ -8,6 +8,7 @@
     border-top-right-radius: 10rem;
 }
 
+
 .subTitle, .title{
     color: #fff;
 }
@@ -36,4 +37,12 @@
 .linkList>:hover{
     text-decoration: underline;
     color: var(--footer-text)
+}
+
+@media screen and (min-width: 600px){
+    .footer{
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
 }

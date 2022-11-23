@@ -49,6 +49,12 @@ nav{
   top:0;
 }
 
+/* global Boostrap CSS rules: */
+
+.dropdown-menu{
+  border: none;
+}
+
 .accordion-button {
   font-size: 1.6rem;
   margin: auto;
