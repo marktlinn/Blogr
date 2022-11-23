@@ -1,7 +1,9 @@
-import React from 'react'
-import styles from '../styles/Footer.module.css'
-import Link from 'next/link'
-
+import React from 'react';
+import styles from '../styles/Footer.module.css';
+import Link from 'next/link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 const Footer = () => {
   return (
     <footer className={styles.footer}>
@@ -33,7 +35,13 @@ const Footer = () => {
           <Link href="#">LinkedIn</Link>
         </ul>
       </div>
-    </footer>
+      <div className={styles.profileTags}>
+        <p><small>Made by Mark Linn</small></p>
+        <Link href="https://github.com/marksist300" ><FontAwesomeIcon size="2x" icon={faGithub}/></Link>
+        <Link href="https://twitter.com/marksist_300"><FontAwesomeIcon size="2x" icon={faTwitter} /></Link>
+        <Link href="mailto:marklinndev@gmail.com"><FontAwesomeIcon size="2x" icon={faEnvelope} /></Link>
+      </div>
+      </footer>
   )
 }
 
