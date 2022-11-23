@@ -32,7 +32,7 @@
 .underText{
     font-size: 1.8rem;
 }
-@media screen and (min-width: 600px){
+@media screen and (min-width: 650px){
     .container{
         flex-direction: row;
         justify-content: space-evenly;
