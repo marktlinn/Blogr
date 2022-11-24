@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import DropDown from './DropDown'
 import styles from '../styles/Nav.module.css'
@@ -8,6 +8,20 @@ import AccordionComp from './Accordion'
 
 const Navbar = () => {
   const [menuActive, setMenuActive] = useState(false);
+  const [windowWidth, setWindowWidth] = useState<number>(0);
+
+  const windowWatcher = () => {
+    setWindowWidth(window.innerWidth)
+  }
+
+  useEffect(()=>{
+    window.addEventListener('resize', windowWatcher);
+    if(windowWidth >=600){
+      setMenuActive(false);
+    }
+    console.log(windowWidth)
+    return ()=> window.removeEventListener('resize', windowWatcher);
+  },[windowWidth])
 
   const handleClick = (e: any) =>{
     e.preventDefault();
