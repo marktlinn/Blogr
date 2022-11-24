@@ -1,34 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Blogr
+Blogging services webpage and application.
 
-## Getting Started
 
-First, run the development server:
+**Link to project:**  https://blogr-marksist300.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+**Project screenshots**:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Key info:
+This is an site built to practice building out more frontend designs. I plan to also add a backend to it with a simple text editor and blog demo platform to be a fullstack blog demo app.
+<br/>
+I choose Nextjs to build the project forseveral reasons:
+<br/>
+-the SEO advantages it offers over pure React.
+<br/> 
+Also Nextjs provides a strong footing for further development of the application in future, if I start building more of the backend and other services and the app grows in complexity Nextjs offers a strong framework in order to do those things.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+**Tech used:** HTML, SASS/CSS, Typescript, Nextjs/Reactjs, Bootstrap
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Optimizations
+The frontend of the project is complete, however there are other features that I would like to add in the future to give a little more depth to the project and to set it up to serve as a basic demo of a blogging app
+<br/>
+I plan in the future to build out the BE by doing the following:
+<br/>
+[ ] - adding auth for users to sign up to and login to the app
+<br/>
+[ ] - to add a simple text editor to enable a blogging app demo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Lessons Learned:
+This was the first time I had used Nextjs so was a nice introduction to it. As part of this project and alongside I did a lot of research also into the functionality of Nextjs and have learnt alot about SSR vs CSR vs SSG vs ISR which was very interesting.
+<br/>
+Also this was the first time I had used Bootstrap, I've experience with other UI frameworks and libraries but had never used Bootstrap. Using it in conjunction with Nextjs preseneted some issues and good learning opportunities regarding restyling and customising the Bootstrap styles.
