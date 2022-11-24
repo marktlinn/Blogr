@@ -10,7 +10,7 @@ const AccordionComp = () => {
     }
 
     return (
-        <Accordion >
+        <Accordion>
           <Accordion.Item 
             onClick={(e)=>{stopDefault(e)}}
             eventKey="0"
@@ -57,9 +57,9 @@ const AccordionComp = () => {
 
             <hr className={styles.hrDiv}/>
 
-            <div className={styles.btn_sect}>
-                <button className={styles.btn_login}>Login</button>
-                <button className={styles.btn_signup}>SignUp</button>
+            <div onClick={(e)=>{stopDefault(e)}} className={styles.btn_sect}>
+                <button onClick={(e)=>{stopDefault(e)}} className={styles.btn_login}>Login</button>
+                <button onClick={(e)=>{stopDefault(e)}} className={styles.btn_signup}>SignUp</button>
             </div>
         </Accordion>
       );
