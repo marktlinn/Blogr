@@ -8,6 +8,7 @@
     background-color: transparent;
     border: none;
     font-size: 1.3rem;
+    color: #fff;
 }
 
 .dropItem{
@@ -32,6 +33,7 @@
 @media screen and (min-width: 600px){
     .drop_menus{
         display: flex;
+        gap: 1rem;
     }
 }
 
