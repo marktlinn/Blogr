@@ -16,7 +16,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <SSRProvider>
       <Head>
-        <title>My page title</title>
+        <title>Blogr</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
       </Head>
       <div className={overpass.className}>
