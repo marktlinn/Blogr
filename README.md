@@ -32,4 +32,4 @@ I plan in the future to build out the BE by doing the following:
 ## Lessons Learned:
 This was the first time I had used Nextjs so was a nice introduction to it. As part of this project and alongside I did a lot of research also into the functionality of Nextjs and have learnt alot about SSR vs CSR vs SSG vs ISR which was very interesting.
 <br/>
-Also this was the first time I had used Bootstrap, I've experience with other UI frameworks and libraries but had never used Bootstrap. Using it in conjunction with Nextjs preseneted some issues and good learning opportunities regarding restyling and customising the Bootstrap styles.
+Also this was the first time I had used Bootstrap, I've experience with other UI frameworks and libraries but had never used Bootstrap. Using it in conjunction with Nextjs presented some issues and good learning opportunities regarding reconfiguring and customising the Bootstrap styles.
