@@ -2,7 +2,7 @@
   padding: 15rem 10%;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
   align-items: center;
   background: URL("../public/bg-pattern-intro-mobile.svg") no-repeat center,linear-gradient(to right bottom, #f86a6a, #FF3D54 75%);
   background-size: 250%;
@@ -16,12 +16,15 @@
   font-size: 4rem;
   text-align: center;
   line-height: 4rem;
+  padding-bottom: 0;
 }
 
 .pText{
   color: #fff;
   font-size: 2rem;
   text-align: center;
+  position: relative;
+  top: -4rem;
 }
 
 /* buttons */
