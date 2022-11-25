@@ -4,7 +4,9 @@ Blogging services webpage and application.
 
 **Link to project:**  https://blogr-marksist300.vercel.app/
 
-**Project screenshots**:
+**Project gifs**:
+![mobile display gif](https://user-images.githubusercontent.com/88390425/203962051-f05da791-5dfb-4437-8ffb-4ae3766d648d.gif)
+![desktop display gif](https://user-images.githubusercontent.com/88390425/203962057-02d30c7d-b83c-453e-863a-455180091b91.gif)
 
 
 
